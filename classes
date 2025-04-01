@@ -33,4 +33,5 @@ class rectangle {
 
 const rect = new rectangle(2, 10)
 const area = rect.area();
+rect.paint();
 console.log(area)
