@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-   <link rel="stylesheet" href="index.css"
+    <title>Document</title>
 </head>
 <body>
-    <div style="color: white; padding-left: 200px; padding-right: 200px;">
+ <div class="stopwatch">
+    <h1 class="timer">
+        0
+    </h1>
+ </div>
+<script>
+const  timer = document.querySelector(".timer")
+console.log(timer);
+let t = 0
+setInterval(function(){
+timer.innerHTML=t
+++t
+},1000)
 
 
 
-
-
-
-
-    </div>
+console.log("")
+</script>
 </body>
-</html
+
+</html>

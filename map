@@ -1,4 +1,14 @@
-const map = new Map();
-map.set('name', 'harkirat');
-map.set('age', 30);
-console.log(map.get('name'));
+// const map = new Map();
+// map.set('name', 'harkirat');
+// map.set('age', 30);
+
+
+// console.firstnamemap.get('name');
+// console.log(firstname);
+
+function random(){
+
+
+}
+let p = new Promise(random);
+console.log(p);
